@@ -1,0 +1,111 @@
+basics:
+  name: Ben Sheeler
+  email: bensheeler@gmail.com
+  phone: 717-576-8947
+  location: Mechanicsburg, PA
+
+experience:
+  - company: Openlane
+    roles:
+      - title: Lead Software Engineer
+        start: May 2026
+        end: current
+        highlights:
+          - Lead design and development on backend services that track a vehicles status within an auction lot
+          - Modified an iOS app to interact with a new backend service
+          - Built and maintained support tools written in Go and Typescript
+        tech:
+          - C#
+          - Pulsar
+          - Kubernetes
+          - Go
+          - Typescript
+          - Pulsar
+      - title: Senior Software Engineer
+        start: November 2023
+        end: May 2026
+        highlights:
+          - Designed and built services and APIs in C# /.NET to facilitate dynamic automobile inspections
+          - Managed terraform and kubernetes configuration for AWS deployments
+          - Assisted in developing the web ui using React and TypeScript
+        tech:
+          - C#
+          - AWS
+          - Kubernetes
+          - PostgreSQL
+          - .NET
+          - React
+          - TypeScript
+
+  - company: Amazon
+    roles:
+      - title: Software Engineer
+        start: June 2022
+        end: November 2023
+        highlights:
+          - Built a service to store SSL certificates to enable customers to inspect TLS traffic.
+          - Designed a new service that provides functionality to check the revocation status of SSL certificates.
+          - Implemented improvements to increase efficiency of the billing service by refactoring DynamoDB tables to handle large data sets. This reduced ops tickets by 15 per month.
+          - Fixed critical bugs in the infrastructure deployment logic to decrease deployment time by up to 2 weeks.
+        tech:
+          - Java
+          - Python
+          - AWS
+          - DynamoDB
+
+  - company: Omnicell
+    roles:
+      - title: Software Engineer 3
+        start: November 2020
+        end: June 2022
+        highlights:
+          - Worked on transitioning a legacy code base to a cloud based, microservice architecture using Azure, Kubernetes, and .NET which enabled increased scalability.
+          - Built front end web applications using Angular, Nx and Typescript, targeting multiple screen sizes and utilizing server side rendering to decrease load times by 50%.
+          - Developed common, shareable packages for cross team use to help decrease development time on common tasks.
+        tech:
+          - C#
+          - Typescript
+          - Javascript
+          - Angular
+          - .NET
+          - RabbitMQ
+
+  - company: Kroll
+    roles:
+      - title: Senior Software Engineer
+        start: September 2017
+        end: November 2020
+        highlights:
+          - Led migration of applications from on prem to AWS, utilizing ec2.
+          - Developed a message based system using RabbitMQ to sync data in near real time between a custom application and Salesforce. Data would sync within 5 minutes.
+        tech:
+          - C#
+          - Javascript
+          - Typescript
+          - Angular
+          - VueJS
+          - AWS
+          - .NET
+          - RabbitMQ
+
+  - company: Computer Aid
+    roles:
+      - title: Software Developer
+        start: May 2014
+        end: September 2017
+        highlights:
+          - Led mentorship program which consisted of training junior developers and interns using a 4-6 week project based curriculum.
+          - Implemented a CI and CD pipeline using Azure DevOps to reduce deployment times from 2-4 hours to 5 minutes.
+        tech:
+          - C#
+          - .NET
+          - Javascript
+          - Angular
+
+education:
+  - school: Messiah College
+    degree: Bachelor of Science
+    field: Computer and Information Science
+    location: Mechanicsburg, PA
+    start: August 2010
+    end: May 2014
